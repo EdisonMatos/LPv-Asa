@@ -3,10 +3,10 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      primary: "#f4cc85",
+      primary: "#BF000A",
       secondary: "#000000",
-      bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#560A0E",
+      bgSectionLight: "#06176c",
+      bgSectionDark: "#101326",
       links: "#0189BB",
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",
@@ -16,9 +16,9 @@ export const theme = {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
     },
     fontFamily: {
-      mainFont: ["Merriweather", "sans-serif"],
+      mainFont: ["Poppins", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Merriweather", "sans-serif"],
+      secondFont: ["Poppins", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },
@@ -67,4 +67,3 @@ export const theme = {
     },
   },
 };
-// export const plugins = [require("tailwindcss-gradients")];
