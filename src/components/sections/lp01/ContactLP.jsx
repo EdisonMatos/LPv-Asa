@@ -13,7 +13,7 @@ export default function ContactLP() {
             <ContactCardLP
               label={contentLp01.contact.card1.title}
               icon={contentLp01.contact.card1.icon}
-              description={contentLp01.contact.card1.description}
+              description="@asasocialoficial"
             />
             <ContactCardLP
               label={contentLp01.contact.card3.title}
@@ -23,7 +23,7 @@ export default function ContactLP() {
             <ContactCardLP
               label={contentLp01.contact.card2.title}
               icon={contentLp01.contact.card2.icon}
-              description={contentLp01.contact.card2.description}
+              description="metodoasahr@gmail.com"
             />
           </div>
         </SectionWrapper>

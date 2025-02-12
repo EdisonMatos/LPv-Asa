@@ -1,16 +1,15 @@
-import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-
+import logo from "../assets/imgs/logo/logo.webp";
+import heroImg from "../assets/imgs/hero/lawHero.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import imgAppStore from "../assets/imgs/hero/appStore.webp";
-import imgGooglePlay from "../assets/imgs/hero/googlePlay.webp";
 
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
+
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutSocial from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -43,13 +42,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Sidney Gomes",
+  name: "Hingryd Rokar",
   email: "contato", // Email desejado pelo cliente
-  domain: "sagadvocacia.com.br", // Sem "www"
+  domain: "prevsocialautonoma.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98591", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2229", // Apenas os 4 últimos números
+    ddd: "88",
+    firstPart: "98191", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2625", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -63,11 +62,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 17h</p>
+      <p>Das 9h às 16h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "sidneianastaciogomes", // Sem o @
+  instagramProfile: "prevsocialautonoma", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -94,16 +93,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SÃO PAULO - SP",
+      miniTag: "ASSISTENTE SOCIAL EM JUAZEIRO DO NORTE - CE",
       title: (
         <h1 className="mb-[16px]">
-          Defenda
-          <span className="text-primary"> seus direitos </span> com quem entende
-          do assunto
+          Transforme
+          <span className="text-primary"> sua vida </span> com o{" "}
+          <span className="text-primary">direito social</span>!
         </h1>
       ),
       subtitle:
-        "Com experiência e compromisso, ofereço suporte jurídico estratégico para defender o que realmente importa",
+        "Conte com Hingryd Rokar para garantir seus benefícios e conquistar os direitos que você merece, com expertise e dedicação.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -125,7 +124,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento exclusivamente online para todo Brasil",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -149,32 +148,18 @@ const content = {
           alt: "",
         },
       },
-      app: {
-        description: "Baixe nosso aplicativo para companhar seu processo:",
-        imgs: {
-          appStore: {
-            img: imgAppStore,
-            alt: "Ícone da App Store",
-            link: "#",
-          },
-          playStore: {
-            img: imgGooglePlay,
-            alt: "Ícone da Play Store",
-            link: "#",
-          },
-        },
-      },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Soluções jurídicas especializadas",
-      subtitle: "Atendimento estratégico para proteger seus direitos.",
+      miniTag: "NOSSOS SERVIÇOS",
+      title: "Diferentes serviços no âmbito do direito previdenciário",
+      subtitle:
+        "Atendimento completo para garantir seus direitos e benefícios.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa dos direitos do trabalhador e do empregador.",
+        title: "Benefício BPC - LOAS",
+        subtitle: "Amparo assistencial para idosos e PCD.",
         description: (
           <div>
             A_Definir
@@ -195,12 +180,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            class="lucide lucide-accessibility"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <circle cx="16" cy="4" r="1" />
+            <path d="m18 19 1-7-6 1" />
+            <path d="m5 8 3-3 5.5 3-2.36 3.5" />
+            <path d="M4.24 14.5a5 5 0 0 0 6.88 6" />
+            <path d="M13.76 17.5a5 5 0 0 0-6.88-6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -208,8 +194,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Cível",
-        subtitle: "Soluções jurídicas para contratos, danos e disputas.",
+        title: "Auxílio-Doença e Acidente",
+        subtitle: "Benefício para segurados incapacitados.",
         description: (
           <div>
             A_Definir
@@ -230,12 +216,15 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-ambulance"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="M10 10H6" />
+            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+            <path d="M19 18h2a1 1 0 0 0 1-1v-3.28a1 1 0 0 0-.684-.948l-1.923-.641a1 1 0 0 1-.578-.502l-1.539-3.076A1 1 0 0 0 16.382 8H14" />
+            <path d="M8 8v4" />
+            <path d="M9 18h6" />
+            <circle cx="17" cy="18" r="2" />
+            <circle cx="7" cy="18" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -243,8 +232,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Previdenciário",
-        subtitle: "Aposentadorias, benefícios e revisões previdenciárias.",
+        title: "Pensão por Morte",
+        subtitle: "Benefício para dependentes do falecido.",
         description: (
           <div>
             A_Definir <br />
@@ -264,13 +253,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-hand-heart"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M11 14h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16" />
+            <path d="m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 15 6 6" />
+            <path d="M19.5 8.5c.7-.7 1.5-1.6 1.5-2.7A2.73 2.73 0 0 0 16 4a2.78 2.78 0 0 0-5 1.8c0 1.2.8 2 1.5 2.8L16 12Z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -278,8 +266,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria e Assessoria Jurídica",
-        subtitle: "Orientação estratégica para segurança jurídica.",
+        title: "Salário Maternidade",
+        subtitle: "Auxílio financeiro para mães seguradas.",
         description: (
           <div>
             A_Definir
@@ -300,13 +288,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            class="lucide lucide-baby"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M9 12h.01" />
+            <path d="M15 12h.01" />
+            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
+            <path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -391,60 +378,62 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR SIDNEY GOMES",
+      miniTag: "QUEM É HINGRYD ROKAR",
       title: "Minha trajetória",
-      subtitle: "Da feira ao direito: uma jornada de dedicação e justiça.",
+      subtitle:
+        "Auxiliamos clientes em todo o Brasil, oferecendo soluções em serviço social",
       paragraph: (
         <div>
-          Minha paixão pelo direito começou na infância. Filho de uma feirante,
-          desde cedo aprendi o valor do trabalho e da dedicação.
+          Auxiliamos clientes em todo o Brasil, oferecendo soluções
+          especializadas em serviço social, com ênfase na área previdenciária. A
+          idealizadora, Hingryd Rokar, é uma profissional dedicada e apaixonada
+          pela transformação de vidas através do direito social.
           <br />
-          Com apenas 11 anos, enquanto ajudava minha mãe na feira, imaginava um
-          futuro no direito, sonhando em ser delegado de polícia e brincando com
-          arminhas de brinquedo.
+          Formada em Serviço Social pela Faculdade Leão Sampaio, em Juazeiro do
+          Norte, Ceará, com especialização em Serviço Social e Humanização, ela
+          traz um conhecimento técnico profundo e uma abordagem humana e
+          empática para cada caso.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha paixão pelo direito começou na infância. Filho de uma feirante,
-          desde cedo aprendi o valor do trabalho e da dedicação.
+          Auxiliamos clientes em todo o Brasil, oferecendo soluções
+          especializadas em serviço social, com ênfase na área previdenciária. A
+          idealizadora, Hingryd Rokar, é uma profissional dedicada e apaixonada
+          pela transformação de vidas através do direito social.
           <br />
           <br />
-          Com apenas 11 anos, enquanto ajudava minha mãe na feira, imaginava um
-          futuro no direito, sonhando em ser delegado de polícia e brincando com
-          arminhas de brinquedo.
+          Formada em Serviço Social pela Faculdade Leão Sampaio, em Juazeiro do
+          Norte, Ceará, com especialização em Serviço Social e Humanização, ela
+          traz um conhecimento técnico profundo e uma abordagem humana e
+          empática para cada caso.
           <br />
           <br />
-          Anos depois, deixei minha cidade natal e segui para São Paulo,
-          determinado a transformar esse sonho em realidade. A vida, no entanto,
-          me levou por outro caminho antes de chegar à advocacia. Trabalhei por
-          muitos anos no chão de fábrica, onde pude vivenciar de perto as
-          dificuldades e desafios enfrentados pelos trabalhadores.
+          Com o objetivo de garantir o acesso dos nossos clientes aos benefícios
+          previdenciários, especialmente o BPC (Benefício de Prestação
+          Continuada), atuamos de maneira autônoma e personalizada.
           <br />
           <br />
-          Foi ali, no contato diário com colegas de profissão, que compreendi a
-          importância de ter alguém que realmente lute pelos direitos daqueles
-          que muitas vezes não sabem a quem recorrer.
+          Nossa missão é proporcionar informações claras e respostas rápidas,
+          possibilitando que nossos clientes obtenham os benefícios do INSS aos
+          quais têm direito, de forma ágil e sem burocracia.
           <br />
           <br />
-          Movido por essa necessidade, em 2015 iniciei minha graduação em
-          Direito pela UNIBAN, em São Bernardo do Campo – SP.
+          Hingryd também tem uma formação contínua, com cursos especializados
+          como o Avançado Assistente Social Expert em BPC e o Assistente Técnico
+          Social, ambos com carga horária intensa, demonstrando seu compromisso
+          com a atualização constante e com a excelência nos serviços prestados.
           <br />
           <br />
-          Foram anos de estudo, esforço e resiliência para conciliar trabalho e
-          faculdade, sempre com o objetivo de me tornar um profissional capaz de
-          oferecer justiça e segurança jurídica àqueles que mais precisam.
+          Além de ser esposa e empreendedora, Hingryd atua com paixão no campo
+          do Direito Previdenciário, oferecendo suporte técnico e jurídico para
+          aqueles que precisam de orientação para conquistar seus direitos.
           <br />
           <br />
-          Em 2023, tornei-me advogado e passei a atuar como audiencista e
-          representante correspondente jurídico. Hoje, minha missão é prestar um
-          atendimento humanizado e comprometido, garantindo que cada cliente
-          tenha sua voz ouvida e seus direitos protegidos.
-          <br />
-          <br />
-          Acredito que a advocacia vai além das leis – é sobre acolher, orientar
-          e lutar por justiça com ética, transparência e dedicação.
+          Com respeito, dignidade e compromisso, buscamos sempre melhorar a
+          qualidade de vida de nossos clientes, proporcionando a certeza de que
+          seus direitos serão defendidos com dedicação e conhecimento técnico.
           <br />
           <br />
         </p>
@@ -459,17 +448,12 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle: "",
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle: "💡 Conheça seus direitos de maneira fácil e rápida!",
         paragraph: (
           <p>
-            Fique por dentro das atualizações mais importantes e aproveite
-            nossas redes sociais para mantermos contato. Estamos sempre por
-            aqui, compartilhando o que faz a diferença.
+            Acompanhe nossas postagens e fique por dentro de tudo sobre
+            benefícios e direitos sociais.
           </p>
         ),
       },
@@ -478,68 +462,72 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "Tem dúvidas sobre seus direitos? Deixe que cuidamos disso para você!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Entre em contato e receba a orientação sobre benefícios e direitos sociais que você merece.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
       miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      title: "Saiba como contratar meus serviços",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Avaliação Inicial",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Entre em contato  para um atendimento inicial. Durante essa conversa, você poderá compartilhar detalhes sobre o seu caso.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Análise e Orientação",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Após a avaliação inicial, realizaremos uma análise detalhada do seu caso. Vamos explicar as opções disponíveis e aconselhar sobre as melhores estratégias jurídicas.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Contrato de Serviços",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Se você decidir seguir em frente, elaboramos um contrato de serviços que descreve os termos e honorários da prestação de serviços.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Início dos Trabalhos",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Com o contrato em vigor, iniciamos com excelência a solicitação do seu benefício para proteger seus interesses e alcançar os melhores resultados possíveis em seu caso.",
         },
       },
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question:
+            "Quais são os principais benefícios sociais disponíveis no Brasil?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Os principais benefícios sociais incluem o Bolsa Família, o Benefício de Prestação Continuada (BPC), o Auxílio Brasil, o Programa de Erradicação do Trabalho Infantil (PETI), entre outros. ",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question:
+            "Quais são os requisitos para acessar o Benefício de Prestação Continuada (BPC)?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Para ter direito ao BPC, é necessário ser idoso com 65 anos ou mais ou pessoa com deficiência de qualquer idade, com renda familiar per capita inferior a 1/4 do salário mínimo.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question:
+            "Como posso verificar se tenho direito a algum benefício social?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Você pode consultar sua elegibilidade através do Cadastro Único para Programas Sociais (CadÚnico) ou entrando em contato com a assistência social do seu município.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question:
+            "Quais documentos são necessários para solicitar benefícios sociais?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Geralmente, são exigidos documentos pessoais como RG, CPF, comprovante de residência, comprovante de renda e, se aplicável, documentos que comprovem a deficiência ou idade.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

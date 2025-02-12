@@ -1,16 +1,15 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
+
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import imgAppStore from "../assets/imgs/hero/appStore.webp";
-import imgGooglePlay from "../assets/imgs/hero/googlePlay.webp";
-
-import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -145,21 +144,6 @@ const content = {
         slide3: {
           img: {},
           alt: "",
-        },
-      },
-      app: {
-        description: "Baixe nosso aplicativo para companhar seu processo:",
-        imgs: {
-          appStore: {
-            img: imgAppStore,
-            alt: "Ícone da App Store",
-            link: "#",
-          },
-          playStore: {
-            img: imgGooglePlay,
-            alt: "Ícone da Play Store",
-            link: "#",
-          },
         },
       },
     },
@@ -398,10 +382,6 @@ const content = {
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
         subtitle: "",
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
         paragraph: (
           <p>
             Fique por dentro das atualizações mais importantes e aproveite
@@ -447,9 +427,9 @@ const content = {
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Procedimento eficaz",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },

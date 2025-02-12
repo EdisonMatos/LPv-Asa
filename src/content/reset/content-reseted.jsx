@@ -297,10 +297,6 @@ const content = {
       miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
       paragraph: (
         <div>
           A_Definir
