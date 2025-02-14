@@ -268,6 +268,35 @@ const contentLp01 = {
     buttonLabel: "Quero meu pack de artes!",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
+  steps: {
+    sectionHeader: {
+      miniTag: "GUIA ASA",
+      title: "Guia definitivo para Assistentes Sociais Autônomas de sucesso",
+      subtitle:
+        "Um guia completo para Assistentes Sociais Autônomas que desejam atuar com excelência, se destacar no mercado e ampliar suas oportunidades.",
+    },
+    cards: {
+      card1: {
+        number: 1,
+        title: "Conheça",
+        description:
+          "Entenda como vários assistentes sociais estão mudando suas vidas",
+      },
+      card2: {
+        number: 2,
+        title: "Aplique",
+        description:
+          "Use seu conhecimento para mudar a vida das pessoas para melhor",
+      },
+      card3: {
+        number: 3,
+        title: "Desfrute",
+        description:
+          "Aproveite uma vida com mais tranquilidade sendo uma Assistente Social Autônoma!",
+      },
+    },
+    ctaButtonLabel: "Quero transformar minha carreira",
+  },
   contact: {
     card1: {
       icon: (

@@ -8,6 +8,7 @@ import CtaLP from "../components/sections/lp01/CtaLP";
 import FeaturesLP from "../components/sections/lp01/FeaturesLP";
 import FooterLP from "../components/sections/lp01/FooterLP";
 import HeroLP from "../components/sections/lp01/HeroLP";
+import Steps from "../components/sections/lp01/Steps";
 import WhyUs from "../components/sections/lp01/WhyUs";
 
 import contentLp01 from "../content/contentLp01";
@@ -44,6 +45,7 @@ export default function Lp01() {
       <FeaturesLP />
       <AboutParalaxeLP />
       <WhyUs />
+      <Steps />
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />
