@@ -60,7 +60,7 @@ export default function Steps({ className }) {
               <Button
                 aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                 label={contentLp01.steps.ctaButtonLabel}
-                buttonLink={contentLp01.links.ctaWhatsapp}
+                buttonLink="https://pay.hotmart.com/Q64049384N?sck=HOTMART_PRODUCT_PAGE&off=6gcljbnm&hotfeature=32&_gl=1*1nbsgb2*_ga*NTMzNzAzMTcwLjE3MDUyMzQ4NzQ.*_ga_GQH2V1F11Q*MTcxMDQxNDU1Mi4yMS4xLjE3MTA0MTYxMzcuNjAuMC4w&bid=1710416142121&fbclid=PAY2xjawIdgaJleHRuA2FlbQIxMAABpmsSVdDgN_pLg6y8ZetO8FZEaVb8GvASXDtN6nYhtki7y010TxTPsLZBcg_aem_hl4LBvvCERy9PNjSMuFKAg"
                 animation
                 icon={
                   <svg
