@@ -1,3 +1,4 @@
 User-agent: *
 
-Sitemap: https://www.asa.prevsocialautonoma.com.br/sitemap.xml
+Sitemap: https://asaoficial.com.br/sitemap.xml
+npm 
