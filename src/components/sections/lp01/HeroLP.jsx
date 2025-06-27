@@ -20,12 +20,13 @@ export default function HeroLP() {
           <div className="flex w-full ">
             <div className="flex phone1:flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
               <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
-                <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
-                  <img
+                <MotionDivDownToUp className="flex justify-center desktop1:justify-start mb-12">
+                  {/* <img
                     src={contentLp01.hero.logo.logoImg}
                     alt={contentLp01.hero.logo.alt}
                     className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[270px]"
-                  />
+                  /> */}
+                  <h1 className="text-title3 desktop1:text-title5 text-white">Hingryd Rokar Previdenciarista</h1>
                 </MotionDivDownToUp>
                 {/* <MotionDivDownToUp>
                     <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont phone1:text-paragraph4">
